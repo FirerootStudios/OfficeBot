@@ -25,7 +25,8 @@
   "dependencies": {
     "coffeescript": "^2.2.2",
     "hubot": "3",
-    "hubot-rocketchat": "rocketchat/hubot-rocketchat"
+    "hubot-rocketchat": "rocketchat/hubot-rocketchat",
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
     "dotenv": "^5.0.1"
