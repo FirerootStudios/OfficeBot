@@ -1,5 +1,12 @@
 const fetch = require("node-fetch");
 
+const responses = [
+    "Joke",
+    "Dark Joke",
+    "Tell me a joke",
+    "Tell me a dark joke"
+]
+
 module.exports = (robot) => {
     robot.respond(/(Joke|Dark Joke|Give me a joke|Give me a dark joke|Tell me a joke|Tell me a dark joke)/gi, (res) => {
         var message = JSON.stringify(res.envelope.message.text);

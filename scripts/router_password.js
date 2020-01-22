@@ -1,5 +1,5 @@
 module.exports = (robot) => {
-    robot.respond(/(Router|Router Wachtwoord|Wachtwoord Router)/gi, (res) => {
+    robot.respond(/(Router|Router Wachtwoord|Wachtwoord Router|Wifi)/gi, (res) => {
         const ww24 = '947XKfdsBddF';
         const ww5 =  '947XKfdsBddF5GHz';
         
